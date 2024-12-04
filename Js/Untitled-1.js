@@ -5,7 +5,7 @@ function agregarProducto(nombre, precio) {
     carrito.push({ nombre, precio });
     total += precio;
 
-   
+
     const listaCarrito = document.getElementById("listaCarrito");
 
     const totalCarrito = document.getElementById("totalCarrito");
@@ -27,8 +27,8 @@ function finalizarCompra() {
     let presupuesto = parseFloat(prompt("Ingresá tu presupuesto:"));
 
     if (total > presupuesto) {
-      
-      alert(`¡Atención! El total de $${total} supera tu presupuesto de $${presupuesto}.`);
+
+        alert(`¡Atención! El total de $${total} supera tu presupuesto de $${presupuesto}.`);
     } else {
 
         alert(`¡Compra realizada con éxito! El total es $${total}.`);

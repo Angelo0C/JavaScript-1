@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    color: #007bff;
+    color: #7EB40F;
 }
 
 /* apartrado de productos  */
@@ -55,7 +55,7 @@ h1 {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #7EB40F;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -65,7 +65,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #374f09;
 }
 
 /* apartado de carrito */
